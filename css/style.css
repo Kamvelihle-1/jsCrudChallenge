@@ -54,6 +54,7 @@
 }
 .footer{
     background-color: rgb(161, 175, 175);
+    height:2rem;
 }
 /* img{
     clip-path: circle();
