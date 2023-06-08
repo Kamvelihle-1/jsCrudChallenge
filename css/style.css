@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgb(161, 175, 175);
+}
+.heading{
+    text-align: center;
+}
+.news{
+    background-color: aliceblue;
+    border-radius: .5rem; 
+}
+.footer{
+    background-color: rgb(161, 175, 175);
+}
+/* img{
+    clip-path: circle();
+} */
+
+.img-fluid{
+    height: fit-content;
+    width: fit-content;
+}
