@@ -34,7 +34,10 @@
     font-size: 14px;
   }
   
-
+.btn-show a{
+    color: black;
+    text-decoration: none;
+}
 .navbar{
     background-color: rgb(161, 175, 175);
 }
