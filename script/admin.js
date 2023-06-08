@@ -44,9 +44,12 @@ function addBolgs() {
              
                 blogData.push({
                     id:itemId,
-                    data:input.value,
-                    complete:false,
-                    
+                    title:blogTitle.value,
+                    image:image.value,
+                    description:blogDescription.value,
+                    content: blogContent,
+                    date: new Date()
+                   
                 })
                 console.log(blogData);
                 count.push(itemId)
@@ -54,7 +57,7 @@ function addBolgs() {
                 itemId++
                
                 clear()
-                localStorage.setItem("to-Do-List",JSON.stringify(blogData))
+                localStorage.setItem("blog-list",JSON.stringify(blogData))
                 output()
                 input.value=""
                 break;
@@ -65,6 +68,24 @@ function addBolgs() {
     } 
     
    
+}
+
+function display(){
+    blogData=JSON.parse(localStorage.getItem('blog-list)
+    blogData.foreach( item =>{
+     table.innerHTML +=                                        
+       `
+       <tr>
+            <td>${item.id}</td>
+            <td>${item.title}</td>
+            <td><a href="${item.image}"></td>
+            <td>${item.description}</td>
+            <td>${item.content}</td>
+            
+       </tr>
+       `
+                                             
+                                             })                                         
 }
 
    
