@@ -41,6 +41,10 @@
 .navbar{
     background-color: rgb(161, 175, 175);
 }
+#tbl-admin, tr,th,td{
+    border: 1px solid black;
+    padding: 1rem;
+}
 .heading{
     text-align: center;
 }
