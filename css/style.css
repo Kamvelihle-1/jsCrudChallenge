@@ -1,3 +1,4 @@
+
 .landing{
     background-image: url('https://i.postimg.cc/MZh2MQm5/CS-3000x1668-e1522241983325-scaled.jpg');
     background-size: cover;
@@ -33,3 +34,26 @@
     font-size: 14px;
   }
   
+
+.navbar{
+    background-color: rgb(161, 175, 175);
+}
+.heading{
+    text-align: center;
+}
+.news{
+    background-color: aliceblue;
+    border-radius: .5rem; 
+}
+.footer{
+    background-color: rgb(161, 175, 175);
+}
+/* img{
+    clip-path: circle();
+} */
+
+.img-fluid{
+    height: fit-content;
+    width: fit-content;
+}
+
